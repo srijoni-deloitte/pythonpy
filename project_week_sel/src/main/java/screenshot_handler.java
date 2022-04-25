@@ -15,6 +15,8 @@ public class screenshot_handler extends Method_container{
         FileUtils.copyFile(src,des);
         System.out.println("Screenshot action is performed for pass condition");
         number+=1;
+
+        
     }
     public static void getScreenShotFail() throws IOException
     {
